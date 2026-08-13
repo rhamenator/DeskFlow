@@ -2,3 +2,17 @@
 name = "desk-flow"
 version = "0.1.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
+description = "Client, product-review, and task-diary workflow core"
+repository = "https://github.com/rhamenator/DeskFlow"
+
+[package.metadata.wix]
+upgrade-guid = "890301B0-4BEE-4473-8B61-5759E44EB409"
+path-guid = "4F72BCD1-229C-4614-9549-E9CD97D1675A"
+license = false
+eula = false
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
