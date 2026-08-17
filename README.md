@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="DeskFlow logo" width="220">
+</p>
+
 # DeskFlow
 
 A generic client/product/task diary based on the durable JH concepts. It keeps
